@@ -9,7 +9,7 @@ class Ami
 
     public function __construct(){}
 
-    public function getUtilisateur()
+    public function getUtilisateur() : User
     {
         return $this->utilisateur;
     }
@@ -19,7 +19,7 @@ class Ami
         $this->utilisateur = $utilisateur;
     }
 
-   public function getAmi()
+   public function getAmi() : User
    {
        return $this->ami;
    }
