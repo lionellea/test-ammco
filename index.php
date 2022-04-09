@@ -2,8 +2,6 @@
 	
 	include_once("fonction.php");
 
-
-	
 ?> 
 
 <html>
